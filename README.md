@@ -14,8 +14,7 @@ Microsoft-WebWright-Example/
 ├── run.py                              # Runner: agent loop, orchestration, logging
 ├── self_reflection.py                  # Self-reflection: evaluates critical points post-run
 ├── requirements.txt                    # Python dependencies
-├── .env                                # API key (not committed)
-├── README.md                           # This file
+├── .env                                # API key 
 ├── skills/
 │   └── google_flights_comparison.py    # Skill: task definition, metadata, workflow steps
 ├── workspace/                          # Agent working directory (created at runtime)
