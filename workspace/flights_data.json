@@ -1,0 +1,114 @@
+{
+  "skill": "google-flights-comparison",
+  "route": "HKG ⇌ CJU",
+  "dates": {
+    "depart": "2026-08-08",
+    "return": "2026-08-14"
+  },
+  "budget_hkd": 20000,
+  "outbound": [
+    {
+      "airline": "HK Express",
+      "flight": "UO",
+      "dep": "02:30",
+      "arr": "06:30",
+      "stops": "Nonstop",
+      "price_hkd": 2340
+    },
+    {
+      "airline": "HK Express",
+      "flight": "UO",
+      "dep": "08:35",
+      "arr": "12:35",
+      "stops": "Nonstop",
+      "price_hkd": 2721,
+      "booking_source": "Agoda"
+    },
+    {
+      "airline": "Jin Air",
+      "flight": "BX",
+      "dep": "09:00",
+      "arr": "13:10",
+      "stops": "Nonstop",
+      "price_hkd": 2580
+    },
+    {
+      "airline": "Cathay Pacific",
+      "flight": "CX",
+      "dep": "10:15",
+      "arr": "14:20",
+      "stops": "Nonstop",
+      "price_hkd": 3100
+    },
+    {
+      "airline": "Korean Air",
+      "flight": "KE",
+      "dep": "07:00",
+      "arr": "13:30",
+      "stops": "1 stop",
+      "price_hkd": 1980
+    }
+  ],
+  "return": [
+    {
+      "airline": "HK Express",
+      "flight": "UO",
+      "dep": "14:00",
+      "arr": "16:10",
+      "stops": "Nonstop",
+      "price_hkd": 2380
+    },
+    {
+      "airline": "HK Express",
+      "flight": "UO",
+      "dep": "19:30",
+      "arr": "21:45",
+      "stops": "Nonstop",
+      "price_hkd": 2380
+    },
+    {
+      "airline": "Jin Air",
+      "flight": "BX",
+      "dep": "20:00",
+      "arr": "22:15",
+      "stops": "Nonstop",
+      "price_hkd": 2650
+    },
+    {
+      "airline": "Cathay Pacific",
+      "flight": "CX",
+      "dep": "16:00",
+      "arr": "18:10",
+      "stops": "Nonstop",
+      "price_hkd": 3050
+    },
+    {
+      "airline": "Korean Air",
+      "flight": "KE",
+      "dep": "15:00",
+      "arr": "21:30",
+      "stops": "1 stop",
+      "price_hkd": 1850
+    }
+  ],
+  "recommended": {
+    "option": 2,
+    "outbound": {
+      "airline": "HK Express",
+      "flight": "UO",
+      "dep": "08:35",
+      "arr": "12:35",
+      "price_hkd": 2721,
+      "booking_source": "Agoda"
+    },
+    "return": {
+      "airline": "HK Express",
+      "flight": "UO",
+      "dep": "19:30",
+      "arr": "21:45",
+      "price_hkd": 2380
+    },
+    "total_hkd": 5101,
+    "saving_hkd": 14899
+  }
+}
