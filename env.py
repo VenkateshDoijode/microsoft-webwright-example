@@ -83,10 +83,8 @@ def take_screenshot(script_name: str, url: str) -> dict:
     """
     screenshot_file = f"screenshot_{script_name.replace('.py', '')}.png"
     screenshot_path = os.path.join(WORKSPACE_DIR, screenshot_file).replace("\\", "/")
-
     script = textwrap.dedent(f"""
         from playwright.sync_api import sync_playwright
-
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
@@ -96,7 +94,6 @@ def take_screenshot(script_name: str, url: str) -> dict:
             browser.close()
             print("Screenshot saved: {screenshot_file}")
     """).strip()
-
     tmp = "_screenshot_runner.py"
     write_workspace_file(tmp, script)
     result = execute_command(f"python {tmp}")
