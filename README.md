@@ -1,4 +1,4 @@
-# Microsoft WebWright — Google Flights Example
+# Microsoft WebWright (Web AI Agent)— Google Flights Example
 
 > A reference implementation of the **Microsoft WebWright architecture**.
 >A real-world WebWright agent that autonomously browses Google Flights, compares round-trip itineraries (HKG ⇌ CJU), and saves a structured recommendation — powered by GPT-4o, Playwright, and a three-component Runner / Model / Environment loop with built-in self-reflection.
@@ -240,5 +240,5 @@ python run.py
 
 After a successful run you will find:
 
-- **`workspace/flights_report.txt`** — recommended itinerary within HK$20,000
+- **`workspace/flights_report.txt`** — recommended itinerary
 - **`workspace/run_log_<timestamp>.jsonl`** — full trace of every thought, action, and observation
