@@ -70,32 +70,7 @@ The skill is defined in `skills/google_flights_comparison.py` and loaded by `run
 
 This project follows the three-component **WebWright** pattern:
 
-# Microsoft Webwright Example
-
 ![Webwright Architecture](IMG_20260530_220140.png)
-```
-User Task ——→ |          run.py (Runner)           |
-              | • Initialises history with the task |
-              | • Orchestrates the agent loop       |
-              | • Logs every step to .jsonl         |
-                        |
-                  history + observation
-                        ▼
-              |      model.py (Model Endpoint)      |
-              | • Wraps OpenAI GPT-4o API           |
-              | • Sends system prompt + history     |
-              | • Returns { thought, action, done } |
-                        |
-                predicted action (shell cmd)
-                        ▼
-              |        env.py (Environment)         |
-              | • Executes commands in workspace/   |
-              | • Captures stdout / stderr          |
-              | • Reads and writes workspace files  |
-                        |
-                   observation
-                        ————————————→ back to Runner
-```
 
 ### Agent Loop — step by step
 
