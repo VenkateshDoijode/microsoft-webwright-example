@@ -1,2 +1,2 @@
-Prompt of the day (2026-11-24):
-Monitor cloud deployments via Webwright
+Prompt of the day (2026-11-25):
+Build a CI/CD pipeline with Webwright
